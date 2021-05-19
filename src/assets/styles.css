@@ -1,0 +1,170 @@
+.cuerpo{
+  background: radial-gradient(white , black);
+   /* background: #293c77;*/
+    color: white;
+}
+
+.navbar{
+    background: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background: rgb(182, 195, 219);
+}
+
+
+
+ul .dropdown-item{
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+.carousel-inner {
+    height: 100vh;
+    background: no-repeat center center scroll;
+    background-size: cover;
+  }
+
+
+.carousel-oscuro{
+    background: radial-gradient(white , black);
+}
+
+#mostrarvid{
+  text-decoration: none;
+}
+
+.videos{
+  cursor: pointer;
+}
+
+  
+  .card-columns .card {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .card-img-top {
+    height: 100% !important;
+  }
+
+  .play:hover > .play1{
+    opacity: 0.4;
+  }
+
+  .play .play2{
+    position: absolute;
+    visibility: hidden;
+    font-weight: bold;
+  }
+
+  .play:hover > .play2{
+    visibility: visible;
+  }
+
+  .expande:hover {
+    transform:scale(1.1);
+    z-index: 1;
+  }
+  
+.embed-responsive .card-img-top {
+    object-fit: cover;
+}
+
+.card {
+  height: 50vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.video{
+  visibility: hidden;
+}
+
+/*cards de video*/
+
+.sombreado{
+  /*box-shadow: 5px 5px 10px;*/
+  box-shadow: -5px -5px 20px 5px red, 5px 5px 20px 5px blue;
+}
+
+.card .card-body{
+  position: absolute;
+  font-weight: bold;
+}
+
+.imagen:hover{
+  transform:scale(1.3);
+}
+
+.tube{
+  background: radial-gradient(red , black, white);
+  border-radius: 50px;
+}
+
+
+#cerrar{
+  background: radial-gradient(red 30%, black);
+  border-radius: 90px;
+}
+
+
+.prom{
+  background: radial-gradient(circle at 0 0 ,black 10%,grey );
+  height: 120px;
+  border-radius: 10px;
+}
+
+
+/*cards de video*/
+
+
+
+  /*-------------------------Estilos Footer-------------------------*/
+
+.main-footer {
+    background: #222;
+    color: white;
+    font-size: .8em;    
+}
+
+/*-------------------------Estilos Footer-------------------------*/
+
+
+.faceb :hover{
+    transform:scale(1.3);
+    z-index: 1;
+    
+}
+
+.twi :hover{
+    transform:scale(1.3);
+    z-index: 1;
+   
+}
+
+.yout :hover{
+    transform:scale(1.3);
+    z-index: 1;
+   
+}
+
+.instg :hover{
+    transform:scale(1.3);
+    z-index: 1;
+    
+}
